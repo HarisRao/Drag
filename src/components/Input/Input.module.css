@@ -1,0 +1,36 @@
+.input {
+  display: block;
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 16px;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+}
+.input:focus-visible {
+  outline: none !important;
+}
+.mainInputDiv {
+  position: relative;
+}
+.passwordIcon {
+  position: absolute;
+  right: 12px;
+  top: 5px;
+}
+.label {
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.error {
+  border: 1px solid #dc3545 !important;
+}
+.errorColor {
+  text-transform: lowercase;
+  font-size: 13px;
+  color: #dc3545;
+  display: block;
+  text-align: left;
+}

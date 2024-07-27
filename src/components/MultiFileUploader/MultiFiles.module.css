@@ -1,0 +1,33 @@
+.mainDiv {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px dashed red;
+  overflow: auto;
+  cursor: pointer;
+}
+.mainImgDiv {
+  display: flex;
+  gap: 12px;
+}
+.imgDiv {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  position: relative;
+}
+.cancelIcon {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  cursor: pointer;
+}
+.imgDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}

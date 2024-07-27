@@ -1,0 +1,153 @@
+.mainContainer {
+  padding: 16px 0;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.mainRow {
+  height: calc(100vh - 32px);
+}
+/* room */
+.roomCol {
+  background-color: #fff;
+  box-shadow: 0 0 4px #0000004f;
+  border-radius: 12px;
+  padding: 0px;
+  height: 100%;
+  height: calc(100vh - 34px);
+  overflow-y: auto;
+}
+.roomCol::-webkit-scrollbar {
+  width: 5px;
+}
+
+.roomCol::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 5px;
+}
+
+.roomCol::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border-radius: 10px;
+  width: 5px;
+}
+
+.roomImgDiv {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.roomImgDiv img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
+}
+.mainRoomDiv {
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+  padding: 14px 8px;
+  border-radius: 10px;
+}
+.roomData h6 {
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  margin-bottom: 3px;
+}
+.roomData p {
+  margin-bottom: 0;
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.roomTime small {
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.roomDataContentDiv {
+  display: flex;
+  gap: 4px;
+}
+.selectedRoom {
+  background: #f8f9fa;
+  box-shadow: 0 0 4px #adb5bd99;
+}
+/* room */
+/* chat */
+.chatCol {
+  background-color: #fff;
+  box-shadow: 0 0 4px #0000004f;
+  border-radius: 12px;
+  padding: 16px;
+  height: 100%;
+}
+.chattingDiv {
+  display: flex;
+  flex-direction: column-reverse;
+  height: calc(100vh - 102px);
+  overflow-y: auto;
+}
+.chattingDiv::-webkit-scrollbar {
+  width: 5px;
+}
+
+.chattingDiv::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.chattingDiv::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border-radius: 10px;
+  width: 5px;
+}
+
+.msgDiv {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.msgImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.msgImg img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
+}
+.msgText {
+  margin-bottom: 0;
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 8px 8px;
+  box-shadow: 0 0 4px #adb5bd99;
+  word-break: break-word;
+  font-size: 14px;
+}
+/* chat */
+.noRoomSelected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+@media (max-width: 1440px) {
+  .mainContainer {
+    max-width: 90%;
+  }
+}

@@ -1,0 +1,9 @@
+.header {
+  text-align: center;
+  padding: 18px 0 0 0;
+}
+.btnDiv {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+}

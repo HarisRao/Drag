@@ -1,0 +1,12 @@
+.socialBtn {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.inputSendDiv {
+  position: relative;
+}
+.inputSendDiv input {
+  display: block;
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 16px;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 12px;
+}
+.inputSendDiv input:focus-visible {
+  outline: none !important;
+}
+.sendIcon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}

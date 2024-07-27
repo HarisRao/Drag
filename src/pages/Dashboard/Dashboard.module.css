@@ -1,0 +1,21 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.innerContainer {
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  width: 600px;
+  margin: auto;
+}
+.innerContainer h1 {
+  text-align: center;
+}
+.btnDiv {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
